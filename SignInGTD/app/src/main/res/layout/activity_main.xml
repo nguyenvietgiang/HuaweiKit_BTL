@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/signInScreen"
+    android:layout_marginTop="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="150dp"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="Hi!...Wellcome GTD"
+        android:textColor="#85B6FF"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="300dp"
+        android:layout_height="320dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/readbook" />
+    <TextView
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:textSize="14dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textColor="#333333"
+        android:textStyle="bold"
+        android:text="Please login with huawei account to join us"/>
+
+    <Button
+        android:id="@+id/HuaweiIdAuthButton"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="@drawable/bg_button_sign_in"
+        android:text="Sign In" />
+
+</LinearLayout>
